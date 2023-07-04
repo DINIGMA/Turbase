@@ -1,0 +1,10 @@
+.section-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+
+    /* Mobile XS */
+    @media (max-width: 629px) {
+      font-size: 20px;
+    }
+}

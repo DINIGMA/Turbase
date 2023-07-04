@@ -1,0 +1,75 @@
+.excursion {
+    padding: 50px 0;
+    color: black;
+}
+
+
+.excursion__title {
+    margin-bottom: 50px;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      text-align: center;
+    }
+    /* Mobile */
+    @media (max-width: 929px) {
+      margin-bottom: 20px;
+    }
+
+}
+
+
+
+.excursion__cards {
+    display: flex;
+    justify-content: space-between;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      column-gap: 30px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+.excursion__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+
+    img{
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      width: 300px;
+    }
+    /* Mobile */
+    @media (max-width: 929px) {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 629px) {
+      width: auto;
+    }
+}
+
+.excursion__subtitle {
+    margin-bottom: 10px;
+    @extend %section-text;
+
+
+}
+
+.excursion__button {
+    color: #fff;
+}

@@ -1,0 +1,149 @@
+.rooms-item {
+    padding: 50px 0;
+    color: black;
+    margin-bottom: 50px;
+
+    /* Mobile XS */
+    @media (max-width: 629px) {
+      .container{
+        width: auto;
+      }
+    }
+}
+
+.rooms-item__title {
+    margin-bottom: 40px;
+    /* Tablet */
+    @media (max-width: 1229px) {
+      text-align: center;
+    }
+
+}
+
+.rooms-item__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      column-gap: 30px;
+    }
+    /* Mobile */
+    @media (max-width: 929px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
+.rooms-item__img {
+    border-radius: 10px;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      width: 400px;
+      height: 318px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      width: 420px;
+      height: 250px;
+      margin-bottom: 20px;  
+    }
+}
+.rooms-item__description {
+    width: 581px;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      width: 465px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      width: 420px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 629px) {
+      width: auto;
+    }
+}
+.rooms-item__text {
+    margin-bottom: 58px;
+    @extend %section-text;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      font-size: 18px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      font-size: 16px;
+    }
+}
+.rooms-item__brone {
+    display: flex;
+    justify-content: space-between;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      font-size: 18px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      font-size: 16px;
+    }
+}
+.rooms-item__price {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.375;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      font-size: 18px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      font-size: 16px;
+    }
+}
+
+.pop-up-brone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: none;
+
+    & form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    & span{
+        position: fixed;
+        top: 10px;
+        right: 20px; 
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        font-size: 50px;
+        text-align: center;
+        color: black;   
+        line-height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}

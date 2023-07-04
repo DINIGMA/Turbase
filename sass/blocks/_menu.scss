@@ -1,0 +1,61 @@
+.menu{
+    position: relative;
+    width: 90px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.375;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    
+    &::before{
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 90px;
+        left: 0;
+        top: -8px;
+        background-color: #fff;
+
+       
+    }
+
+    &::after{
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 90px;
+        left: 0;
+        bottom: -8px;
+        background-color: #fff;
+    }
+
+    /* Mobile */
+    @media (max-width: 629px) {
+      font-size: 14px;
+    }
+}
+
+.menu--black{
+    color: #000;
+
+    &::before{
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 90px;
+        left: 0;
+        top: -8px;
+        background-color: #000;
+    }
+
+    &::after{
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 90px;
+        left: 0;
+        bottom: -8px;
+        background-color: #000;
+    }
+}

@@ -1,0 +1,24 @@
+.reviews{
+    color: #000;
+    padding-bottom: 50px;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      padding-top: 50px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 629px) {
+      padding-bottom: 30px;
+      padding-top: 30px;
+    }
+}
+
+.reviews__title {
+    margin-bottom: 35px;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      text-align: center;
+    }
+}

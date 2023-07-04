@@ -1,0 +1,21 @@
+.main-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.37;
+    color: #000000;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      font-size: 28px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      font-size: 26px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 629px) {
+      font-size: 20px;
+    }
+}

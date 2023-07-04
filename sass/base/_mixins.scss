@@ -1,0 +1,27 @@
+@mixin buttons($width){
+    display: block;
+	width: $width;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #1E1E1E;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.35;
+    color: #fff;
+	transition: 0.3s;
+}
+
+%section-text{
+	font-weight: 400;
+    font-size: 24px;
+    line-height: 1.375;
+
+	/* Tablet */
+	@media (max-width: 1229px) {
+	  font-size: 22px;
+	}
+}

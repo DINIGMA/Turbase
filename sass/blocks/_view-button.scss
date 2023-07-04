@@ -1,0 +1,18 @@
+.view{
+	display: block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background: #1E1E1E;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.35;
+    color: #fff !important;
+	transition: 0.3s;
+
+}
+
+.view:hover{
+	opacity: 0.8;
+}

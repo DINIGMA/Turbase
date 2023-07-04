@@ -1,0 +1,10 @@
+.header-pages {
+    padding-top: 95px;
+
+    @media (max-width: 1229px) {
+        padding-top: 10px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

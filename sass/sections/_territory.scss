@@ -1,0 +1,56 @@
+.territory {
+    margin-bottom: 50px;
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      display: none;
+    }
+}
+
+.territory__title {
+    margin-bottom: 30px;
+}
+
+.territory__pluses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: #000;
+}
+.territory__plus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 278px;
+    border: 1px solid #000;
+    border-radius: 50%;
+
+    text-align: center;
+}
+
+
+
+.territory__number {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.territory__number-desc {
+    font-weight: 700;
+    font-size: 14px;
+}
+.terrytory__plus-description {
+    max-width: 237px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.33;
+}
+
+.terrytory__desc {
+    @extend %section-text;
+
+    color: #000000;
+}
+

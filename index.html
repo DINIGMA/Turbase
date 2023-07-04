@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.theme.default.css">
+
+</head>
+<body>
+    <header class="header">
+        
+        <div class="header__wrapper">
+            
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="./rooms.html" class="nav__link">Номера и цены</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+                        <li class="nav__item"><a href="./gallery.html" class="nav__link">Галерея</a></li>
+                        <li class="nav__item"><img src="./img/logo/logo-2.png" alt="" class="logo"></li>
+                        <li class="nav__item"><a href="./info.html" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="./contacts.html" class="nav__link">Контакты</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">8-800-550-01-09</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__mobile-wrapper">
+                    <div class="header__mobile">
+                        <img src="./img/logo/logo-2.png" alt="" class="logo-mobile">
+
+                        <nav class="mobile-nav">
+                            <ul class="mobile-nav__list">
+                                <li><a href="#!" class="mobile-nav__link active">Главная</a></li>
+                                <li><a href="./info.html" class="mobile-nav__link">Отзывы</a></li>
+                                <li><a href="#services" class="mobile-nav__link">Услуги</a></li>
+                                <li><a href="#rooms" class="mobile-nav__link">Номера</a></li>
+                            </ul>
+                            <button class="menu">Меню</button>
+                            <button class="close"><img src="./img/header/icon/close.svg" alt=""></button>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="header__content">
+                    <div class="header__title">Турбаза отдыха на Байкале</div>
+                    <div class="header__disc">почувствуйте себя как дома</div>   
+                </div>
+
+            
+    
+        </div>
+
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Комнаты -->
+            <section class="rooms" id="rooms">
+                <!-- Заголовок секции -->
+                <div class="rooms__title">
+                    <h2 class="main-title">НОМЕРА</h2>
+                </div>
+                <!-- карточки номеров -->
+                <div class="rooms__cards">
+                    <!-- отдельная карточка -->
+                    <div class="rooms__card">
+                        <img src="./img/main-rooms/room-1.jpg" alt="" class="rooms__img">
+                        <h3 class="rooms__desc">Одноместный номер
+                            <br>От 1500 р.</h3>
+                        <a href="./rooms/one-room.html" class="view">Посмотреть</a>
+                    </div>
+
+                    <div class="rooms__card">
+                        <img src="./img/main-rooms/room-2.jpg" alt="" class="rooms__img">
+                        <h3 class="rooms__desc">Двухместный номер
+                            <br>От 2500 р.</h3>
+                        <a href="#!" class="view">Посмотреть</a>
+                    </div>
+
+                    <div class="rooms__card">
+                        <img src="./img/main-rooms/room-3.jpg" alt="" class="rooms__img">
+                        <h3 class="rooms__desc">Трёхместный номер
+                            <br>От 3500 р.</h3>
+                        <a href="#!" class="view">Посмотреть</a>
+                    </div>
+
+                    <div class="rooms__card">
+                        <img src="./img/main-rooms/room-4.jpg" alt="" class="rooms__img">
+                        <h3 class="rooms__desc">Четырёместный номер
+                            <br>От 4500 р.</h3>
+                        <a href="#!" class="view">Посмотреть</a>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+            <!-- Территория -->
+            <section class="territory">
+
+                <div class="territory__title">
+                    <h2 class="main-title">ТЕРРИТОРИЯ</h2>
+                </div>
+
+                <div class="slider-wrapper">
+                    <div class="owl-carousel owl-theme" id="photo-carousel">
+
+                        <div>
+                            <img src="./img/main-slider/1.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/main-slider/2.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/main-slider/3.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="territory__pluses">
+
+                    <div class="territory__plus">
+                        <div class="terrytory__number-wrapper">
+                            <span class="territory__number">5</span>
+                            <span class="territory__number-desc">ЛЕТ</span>
+                        </div>
+                        <p class="terrytory__plus-description">уже радуем наших гостей гостепреимством</p>
+                    </div>
+
+                    <div class="territory__plus">
+                        <div class="terrytory__number-wrapper">
+                            <span class="territory__number">30</span>
+                            <span class="territory__number-desc">НОМЕРОВ</span>
+                        </div>
+                        <p class="terrytory__plus-description">для комфортного отдыха</p>
+                    </div>
+
+                    <div class="territory__plus">
+                        <div class="terrytory__number-wrapper">
+                            <span class="territory__number">80</span>
+                            <span class="territory__number-desc">ЧЕЛОВЕК</span>
+                        </div>
+                        <p class="terrytory__plus-description">может вместить наша турбаза</p>
+                    </div>
+
+                    <div class="territory__plus">
+                        <span class="territory__number">40000</span>
+                        <p class="terrytory__plus-description">довольных гостей нашим сервисом</p>
+                    </div>
+
+                </div>
+
+                <div class="terrytory__desc">
+                    <p>На территории турбазы есть мангальная территория, бассейн, волейбольная площадка, детская площадка для маленьких детей. Если у вас большая компания - есть идеальный вариант для того чтоб сыграть в настольные игры.</p>
+                </div>
+
+
+
+
+
+            </section>
+            <!-- Услуги -->
+            <section class="services" id="services">
+                <div class="services__title">
+                    <h2 class="main-title">УСЛУГИ</h2>
+                </div>
+
+                <div class="services__cards">
+
+                    <div class="services_card">
+                        <h3 class="services__card-title">Баня</h3>
+                        <img src="./img/main-services/sauna.jpg" alt="" class="services__img">
+                        <a href="./bath.html" class="view">Посмотреть</a>
+                    </div>
+
+                    <div class="services_card">
+                        <h3 class="services__card-title">Прокат велосипедов</h3>
+                        <img src="./img/main-services/basycle.jpg" alt="" class="services__img">
+                        <a href="./rent.html" class="view">Посмотреть</a>
+                    </div>
+
+                    <div class="services_card">
+                        <h3 class="services__card-title">Экскурсии</h3>
+                        <img src="./img/main-services/turism.jpg" alt="" class="services__img">
+                        <a href="./excursion.html" class="view">Посмотреть</a>
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            <section class="mobile-gallery">
+                <div class="mobile-gallery__title">
+                    <h2 class="main-title">ГАЛЕРЕЯ</h2>
+                </div>
+
+                <div class="mobile-gallery__subtitle">
+                    <p>Территория</p>
+                </div>
+
+                <div class="mobile-gallery__slider-wrapper">
+                    <div class="owl-carousel owl-theme" id="photo-carousel-mobile-1">
+
+                        <div>
+                            <img src="./img/mobile-gallery/territory/01.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/mobile-gallery/territory/02.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/mobile-gallery/territory/03.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/mobile-gallery/territory/04.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/mobile-gallery/territory/05.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="mobile-gallery__subtitle">
+                    <p>Пейзажи</p>
+                </div>
+                <div class="mobile-gallery__slider-wrapper">
+                    <div class="owl-carousel owl-theme" id="photo-carousel-mobile-2">
+
+                        <div>
+                            <img src="./img/mobile-gallery/scenery/01.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/mobile-gallery/scenery/02.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <img src="./img/mobile-gallery/scenery/03.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="info">
+                <div class="info__title">
+                    <h2 class="main-title">О НАС</h2>
+                </div>
+
+                <div class="info__defenition">
+                    <p><strong> УСАДЬБА “ЯСНАЯ”</strong> - турбаза, где каждый может почувствовать себя как дома, ментально и физически выпустить весь негатив и по настоящему “расслабиться”</p>
+                </div>
+
+                <div class="info__wrapper">
+                    <div class="info__img-wrapper">
+                        <img src="./img/main-info/video.jpg" alt="video" class="info__img">
+                        <a href="https://www.youtube.com/watch?v=s0hjeF47b-c" class="info__video-link tube"><img src="./img/main-info/icon/play-button.png" alt="play"></a>
+                    </div>
+
+                    <div class="info__decription">
+                        <p class="info__description-item">База для отдыха “Ясная” находится в Большом Голоустном на берегу озера Байкала.</p>
+                        <p class="info__description-item">Идеальное место для посиделок с семьей или компанией друзей. Деревянные домики, природа, свежий воздух - секрет вашего здоровья и отличного настроения.</p>
+                        <p class="info__description-item">Вместительность номеров от 1 до 4 человек, много пространства для каждой персоны.</p>
+                    </div>
+                </div>
+
+                <div class="info__advantages">
+
+                    <div class="info__title">
+                        <h2 class="main-title">ПРЕИМУЩЕСТВА</h2>
+                    </div>
+                    
+                    <div class="info__advantages-wrapper">
+
+                        <div class="info__advantages-card">
+                            <img src="./img/main-info/icon/nature.svg" alt="nature">
+                            <div class="info__advantages-desc"><p>озеро в двух шагах</p></div>
+                        </div>
+
+                        <div class="info__advantages-card">
+                            <img src="./img/main-info/icon/wifi.svg" alt="wifi">
+                            <div class="info__advantages-desc"><p>бесплатный Wi-fi</p></div>
+                        </div>
+
+                        <div class="info__advantages-card">
+                            <img src="./img/main-info/icon/territory.svg" alt="territory">
+                            <div class="info__advantages-desc"><p>мангальная территория</p></div>
+                        </div>
+
+                        <div class="info__advantages-card">
+                            <img src="./img/main-info/icon/voleyball.svg" alt="volleyball">
+                            <div class="info__advantages-desc"><p>воллейбольная площадка</p></div>
+                        </div>
+
+                        <div class="info__advantages-card">
+                            <img src="./img/main-info/icon/games.svg" alt="games">
+                            <div class="info__advantages-desc"><p>разнообразие настольных игр</p></div>
+                        </div>
+
+                        <div class="info__advantages-card">
+                            <img src="./img/main-info/icon/dog.svg" alt="dog">
+                            <div class="info__advantages-desc"><p>возможность взять пушистого друга с собой</p></div>
+                        </div>
+
+                    </div>
+
+
+                    
+
+                </div>
+
+
+
+            </section>
+            
+            <!-- Местоположение -->
+            <section class="location">
+
+                <div class="location__title">
+                    <h2 class="main-title">МЕСТОНАХОЖДЕНИЕ</h2>
+                </div>
+                
+
+                <div class="location__wrapper">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5bb48ea7afb78ec0a8cd1a771931608bfed033b1eed67814f566165fd34c071c&amp;source=constructor" width="790" height="430" frameborder="0" class="map"></iframe>
+                    <div class="location__contacts">
+                        <h3 class="location__contacts-title">Контактные данные</h3>
+                        <ul class="location__list">
+                            <li class="location__list-item phone"><a href="tel:+798005500109">8 800 550-01-09</a></li>
+                            <li class="location__list-item mail"><a href="mailto:usadba@yasnaya.net">usadba@yasnaya.net</a></li>
+                            <li class="location__list-item adress">Улица Пушкина, дом Колотушкина 30</li>
+                            <li class="location__list-item time">пн-пт: 08:00-20:00</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__copyright">
+                    <img src="./img/logo/logo.png" alt="logo" class="footer__logo">
+                    <div class="footer__contacts-wrapper">
+                        <a href="tel:+798005500109" class="footer__contacts-item">8 800 550-01-09</a>
+                        <a href="mailto:usadba@yasnaya.net" class="footer__contacts-item">usadba@yasnaya.net</a>
+                        <p class="footer__contacts-item">Улица Пушкина, дом Колотушкина 30</p>
+                    </div>
+
+                    <div class="footer__icons">
+                        <a href="#!"><img src="./img/footer/icons/vk.svg" alt="vk"></a>
+                        <a href="#!"><img src="./img/footer/icons/instagramm.svg" alt="insta"></a>
+                        <a href="#!"><img src="./img/footer/icons/whatsapp.svg" alt="whatsapp"></a>
+                    </div>
+                </div>
+
+                <div class="footer__widgets">
+
+                    <div class="footer__widget">
+                        <div class="footer__title">
+                            <h2>О КОМПАНИИ</h2>
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="./info.html">О нас</a></li>
+                            <li class="footer__list-item"><a href="./info.html">Отзывы</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__widget">
+                        <div class="footer__title">
+                            <h2>УСЛУГИ</h2>
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="./excursion.html">Экскурсии</a></li>
+                            <li class="footer__list-item"><a href="./bath.html">Баня</a></li>
+                            <li class="footer__list-item"><a href="">Прокат</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__widget">
+                        <div class="footer__title">
+                            <h2>ИНФОРМАЦИЯ</h2>
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="">Контакты</a></li>
+                            <li class="footer__list-item"><a href="">Политика <br>конфиденциальности</a></li>
+                            <li class="footer__list-item"><a href="">Согласие на обработку <br> данных</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p>© 2023 все права защищены</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- vendor script -->
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+
+
+    <!-- users-script -->
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.button-gallery{
+    @include buttons(200px);
+	
+	&.active {
+		background: #3BA539;
+	}
+
+}
+
+.button-gallery:hover{
+	opacity: 0.8;
+}
+
+.button-more {
+    @include buttons(277px);
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+      width: 240px;
+    }
+
+    /* Mobile */
+    @media (max-width: 929px) {
+      width: 250px;
+    } 
+
+}
+
+.other-rooms__card .button-more{
+    width: 180px; 
+}
+
+.button-brone{
+    @include buttons(277px);
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    /* Tablet */
+    @media (max-width: 1229px) {
+        width: 218px;
+        font-size: 16px;
+    }
+    
+    /* Mobile */
+    @media (max-width: 929px) {
+      width: 210px;
+      font-size: 14px;
+    }
+}
+
+
